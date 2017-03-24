@@ -1,15 +1,6 @@
-// plik scripts.js
+var a = 5,
+	h = 8,
+	triangleArea = a*h/2
 
-var name = prompt('Wpisz swoje imię');
-// alert('Witaj, ' + name);
-console.log('Witaj, ' + name);
 
-/*
-console.log('Ta funkcja nie zadziała');
-*/
-
-console.log('Ta funkcja będzie działać');
-
-alert('Działam!');
-
-// alert('A ja nie');
+console.log('Pole trójkąta o podstawie a: ' + a + ' i wysokości h: ' + h + ' wynosi: ' + triangleArea);
